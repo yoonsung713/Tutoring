@@ -1,18 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableRow>
+        <ImageView
+            android:id="@+id/imagebdi"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/bdi_button"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="126dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            ></ImageView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imagebai"
+            android:layout_width="116dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/bai_button"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="126dp"
+            android:layout_marginTop="20dp"
+            ></ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/imagegad"
+            android:layout_width="116dp"
+            android:layout_height="124dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/gad_button"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="126dp"
+            android:clickable="true"
+            android:layout_marginTop="50dp"
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/imagesei"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/sei_button"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="126dp"
+            android:clickable="true"
+            android:layout_marginTop="50dp"
+            ></ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/imagecenter"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:scaleType="centerInside"
+            android:src="@drawable/center_button"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="126dp"
+            android:clickable="true"
+            android:layout_margin = "20dp"
+            ></ImageView>
+    </TableRow>
+
+
+
+
+
+</TableLayout>
