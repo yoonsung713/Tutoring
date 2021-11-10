@@ -8,26 +8,25 @@
 
     <TableRow>
         <ImageView
-            android:id="@+id/imagebdi"
+            android:id="@+id/image_bdi"
             android:layout_width="118dp"
             android:layout_height="119dp"
-            android:onClick="onClick"
+            android:onClick="bdiClicked"
             android:scaleType="centerInside"
             android:src="@drawable/bdi_button"
             tools:layout_editor_absoluteX="34dp"
             tools:layout_editor_absoluteY="126dp"
             android:layout_weight="1"
-            android:clickable="true"
             android:layout_marginTop="20dp"
             ></ImageView>
 
         <ImageView
-            android:id="@+id/imagebai"
+            android:id="@+id/image_bai"
             android:layout_width="116dp"
             android:layout_height="120dp"
+            android:onClick="baiClicked"
             android:layout_weight="1"
             android:clickable="true"
-            android:onClick="onClick"
             android:scaleType="centerInside"
             android:src="@drawable/bai_button"
             tools:layout_editor_absoluteX="34dp"
@@ -39,11 +38,11 @@
 
     <TableRow>
         <ImageView
-            android:id="@+id/imagegad"
+            android:id="@+id/image_gad"
             android:layout_width="116dp"
             android:layout_height="124dp"
+            android:onClick="gadClicked"
             android:layout_weight="1"
-            android:onClick="onClick"
             android:scaleType="centerInside"
             android:src="@drawable/gad_button"
             tools:layout_editor_absoluteX="34dp"
@@ -53,11 +52,11 @@
             ></ImageView>
 
         <ImageView
-            android:id="@+id/imagesei"
+            android:id="@+id/image_sei"
             android:layout_width="112dp"
             android:layout_height="match_parent"
+            android:onClick="seiClicked"
             android:layout_weight="1"
-            android:onClick="onClick"
             android:scaleType="centerInside"
             android:src="@drawable/sei_button"
             tools:layout_editor_absoluteX="34dp"
@@ -69,19 +68,19 @@
     </TableRow>
 
     <TableRow>
+
         <ImageView
-            android:id="@+id/imagecenter"
+            android:id="@+id/image_center"
             android:layout_width="112dp"
-            android:layout_height="match_parent"
+            android:layout_height="246dp"
+            android:layout_margin="20dp"
+            android:onClick="hanyangClicked"
             android:layout_weight="1"
-            android:onClick="onClick"
+            android:clickable="true"
             android:scaleType="centerInside"
             android:src="@drawable/center_button"
             tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="126dp"
-            android:clickable="true"
-            android:layout_margin = "20dp"
-            ></ImageView>
+            tools:layout_editor_absoluteY="126dp"></ImageView>
     </TableRow>
 
 
