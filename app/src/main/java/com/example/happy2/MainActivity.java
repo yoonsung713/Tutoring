@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         public void bdiClicked(View view) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.naver.com/"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ivlv.me/pz1fp "));
             startActivity(intent);
         }
 
         public void baiClicked(View view) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.naver.com/"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ivlv.me/yJGuX "));
             startActivity(intent);
         }
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public void seiClicked(View view) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.naver.com/"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://ivlv.me/usK48"));
             startActivity(intent);
         }
 
