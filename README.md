@@ -1,2 +1,3 @@
 # HAPPY 
-## An API for Hanyang student's mental care. Works on Android.
+## An API for Hanyang student's mental care.
+## Works on Android.
